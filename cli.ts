@@ -49,6 +49,7 @@ interface FrontMatter {
   title: string;
   date: string;
   updated?: string;
+  published?: string;
   draft?: boolean;
   taxonomies: {
     tags?: string[];
@@ -72,8 +73,10 @@ interface Chapter {
   title: string;
   date: Date;
   updated: Date;
+  published: Date;
   content: string;
   day: string;
+  day_published: string;
   frontMatter: FrontMatter;
 }
 interface OutputOptions {
@@ -352,9 +355,13 @@ async function main() {
           updated: attrs.updated
             ? new Date(attrs.updated)
             : new Date(attrs.date),
+          published: attrs.published
+            ? new Date(attrs.published)
+            : new Date(attrs.date),
           category,
           content: body,
           day: formatBeijing(new Date(attrs.date), "yyyy-MM-dd"),
+          day_published: formatBeijing(new Date(attrs.published), "yyyy-MM-dd"),
           frontMatter: attrs,
         };
         // add to archive
@@ -699,6 +706,39 @@ ${body}
       }
     }
 
+    // add table of content to index
+    const indexContent = await Deno.readTextFile(
+      path.join(
+        bookSourceFileDist,
+        bookConfig.book.src as string,
+        "README.md",
+      ),
+    );
+
+    if (indexContent.includes("<!-- Table of Content-->")) {
+      // replace it
+      let tableOfContent = ``;
+
+      for (const chapter of allChapters) {
+        const urlPathname = chapter.relativePath.replace(/^content\//, "");
+        tableOfContent +=
+          `- ${chapter.day} [${chapter.title}](${urlPathname}) (${chapter.day_published})\n`;
+      }
+      // replace it with table of content
+      const newContent = indexContent.replace(
+        "<!-- Table of Content-->",
+        tableOfContent,
+      );
+      await Deno.writeTextFile(
+        path.join(
+          bookSourceFileDist,
+          bookConfig.book.src as string,
+          "README.md",
+        ),
+        newContent,
+      );
+    }
+    
     // write book.toml
     const bookToml = stringify(
       book.config as unknown as Record<string, unknown>,

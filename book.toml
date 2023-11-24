@@ -1,10 +1,10 @@
 base_url = "https://clip-template.vercel.app"
 [book]
-title = "Owen's Clip"
-description = "Owen's Clip"
+title = "Empty Spaces"
+description = "Another Brick in the Web"
 src = "content"
 language = "zh"
-authors = ["Owen Young"]
+authors = ["Vera"]
 
 [output.html]
 git-repository-url = "https://github.com/theowenyoung/clip-template"

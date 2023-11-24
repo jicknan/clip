@@ -9,7 +9,7 @@
   "downloadMode": "downloadsApi",
   "emDelimiter": "_",
   "fence": "```",
-  "frontmatter": "---\ntitle: \"{pageTitleWithoutSiteName}\"\ndate: {date:YYYY-MM-DDTHH:mm:ss}+08:00\nupdated: {date:YYYY-MM-DDTHH:mm:ss}+08:00\ntaxonomies:\n  tags: {tags}\nextra:\n  source: {baseURI}\n  hostname: {hostname}\n  author: {byline}\n  original_title: \"{title}\"\n  original_lang: {lang}\n---\n",
+  "frontmatter": "---\ntitle: \"{pageTitleWithoutSiteName}\"\ndate: {date:YYYY-MM-DDTHH:mm:ss}+08:00\nupdated: {date:YYYY-MM-DDTHH:mm:ss}+08:00\npublished: {date:YYYY-MM-DDTHH:mm:ss}+08:00\ntaxonomies:\n  tags: {tags}\nextra:\n  source: {baseURI}\n  hostname: {hostname}\n  author: {byline}\n  original_title: \"{title}\"\n  original_lang: {lang}\n---\n",
   "headingStyle": "atx",
   "hr": "___",
   "imagePrefix": "",
