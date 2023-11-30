@@ -2,7 +2,7 @@
 title: "Superlinear Returns"
 date: 2023-11-30T11:16:25+08:00
 updated: 2023-11-30T11:16:25+08:00
-published: 2023-11-30T11:16:25+08:00
+published: 2023-10-30T11:16:25+08:00
 taxonomies:
   tags: []
 extra:
