@@ -1,5 +1,5 @@
 ---
-title: (All) DNS Resource Records
+title: (All) DNS Resource Records 双语版
 date: 2023-11-30T10:23:48.000Z
 updated: 2023-11-30T10:23:48.000Z
 published: 2021-07-15T10:23:48.000Z
