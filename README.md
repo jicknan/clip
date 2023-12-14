@@ -1,11 +1,10 @@
-## Another brick in the Web
+## 时光的河入海流 带走了什么 留下了什么
 
 ```
-我关心的不是什么在变化，
-而是多年后不变的那些东西，
-重要的是在变化中找到不变。
+What’s not going to change in the next 10 years?
+-- Jeff Bezos, 2012
 ```
 
-## 目录
+## Echoes of time
 
 <!-- Table of Content-->

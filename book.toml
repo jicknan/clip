@@ -1,7 +1,7 @@
 base_url = "https://clip-wheat.vercel.app"
 [book]
-title = "Empty Spaces"
-description = "Another Brick in the Web"
+title = "Echo of Times"
+description = "时光的河入海流 带走了什么 留下了什么"
 src = "content"
 language = "zh"
 authors = ["Vera"]
