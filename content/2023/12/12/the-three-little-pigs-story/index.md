@@ -161,13 +161,3 @@ So the little piggy put on the cover again, boiled the wolf up, and the three li
 于是，小猪又盖上盖子，把大灰狼煮了，三只小猪就把他当晚饭吃了。
 
   ![Three Little Pigs, the wolf falls into the pot](three-little-pigs-wolf-into-pot.jpg "Three Little Pigs, the wolf falls into the pot")
-
-___
-
-If you enjoyed this story, you may be interested in our collection of [Children's Stories](https://americanliterature.com/short-stories-for-children) or other titles from our library of [Pre-K Read-Aloud Stories](https://americanliterature.com/pre-k-learn-to-read#read-aloud-stories).  
-
-如果您喜欢这个故事，您可能会对我们的儿童故事集或学前朗读故事库中的其他标题感兴趣。
-
-___
-
-[![facebook share button](facebook.png)](https://www.facebook.com/sharer.php?u=https%3A//americanliterature.com/childrens-stories/the-three-little-pigs) [![twitter share button](twitter.png)](https://twitter.com/intent/tweet?text=I+enjoyed+reading&url=https%3A%2F%2Famericanliterature.com%2Fchildrens-stories%2Fthe-three-little-pigs&hashtags=reading,shortstory) [![reddit share button](reddit.png)](https://reddit.com/submit?url=https%3A//americanliterature.com/childrens-stories/the-three-little-pigs) [![share on pinterest pinterest](pinterest.png)](https://www.pinterest.com/amlitdotcom/)
